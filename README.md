@@ -13,7 +13,7 @@ A lightweight and efficient data monitoring system using **ESP32** as a sensor e
 ## Getting Started  
 
 ### **ESP32 Setup**  
-#### **🛠️ Requirements:**  
+#### **Requirements:**  
 - **ESP32** (with WiFi support)  
 - **PlatformIO**  
 
@@ -32,8 +32,8 @@ A lightweight and efficient data monitoring system using **ESP32** as a sensor e
 #### **ESP32 API Endpoints**  
 | Endpoint       | Method | Description |
 |--------------- |--------|-------------|
-| `/set`         | `GET`  | Set the value of humidity and temperature sensors (simulate without real sensors).<br>`/set?humidity=48` or `/set?temperature=24`|
-| `/metrics`     | `GET`  | Returns Prometheus-compatible data |
+| `/set`         | `GET` | Set the value of humidity and temperature sensors. `/set?humidity=48` or `/set?temperature=24`|
+| `/metrics`     | `GET` | Returns Prometheus-compatible data |
 
 ---
 
@@ -59,7 +59,7 @@ docker-compose --version
 - **Prometheus config:** `prometheus/prometheus.yml`  
 - **Grafana dashboards:** Configured manually via Grafana UI  
 
-#### ** Access Services:**  
+#### **Access Services:**  
 | Service     | URL |
 |------------|----------------------------|
 | Prometheus | [http://localhost:9090](http://localhost:9090) |
