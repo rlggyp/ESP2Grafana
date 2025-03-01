@@ -1,4 +1,8 @@
 # ESP2Grafana  
+<p align="center"> 
+  <img alt="ESP2Grafana Diagram" src="assets/ESP2GrafanaDiagram.png" width="75%">
+</p>
+
 A lightweight and efficient data monitoring system using **ESP32** as a sensor endpoint, designed for **Prometheus** and **Grafana** integration.  
 
 ## Features  
@@ -32,7 +36,7 @@ A lightweight and efficient data monitoring system using **ESP32** as a sensor e
 #### **ESP32 API Endpoints**  
 | Endpoint       | Method | Description |
 |--------------- |--------|-------------|
-| `/set`         | `GET` | Set the value of humidity and temperature sensors. `/set?humidity=48` or `/set?temperature=24`|
+| `/set`         | `GET` | `/set?humidity=48` or `/set?temperature=24` |
 | `/metrics`     | `GET` | Returns Prometheus-compatible data |
 
 ---
